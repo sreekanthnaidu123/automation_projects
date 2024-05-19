@@ -1,0 +1,26 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.TC 02                                                                  
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_02.robot:7
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_02.robot:8
+      Open Browser    ${url}    ${browser}
+      |  ${url} = https://demo.nopcommerce.com/ (str)
+      |  ${browser} = chrome (str)
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: 'chromedriver.exe' executable may have wrong permissions.
+------------------------------------------------------------------------------
+Suites.TC 02                                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\ADMIN\PycharmProjects\robot_project\pabot_results\1\output.xml

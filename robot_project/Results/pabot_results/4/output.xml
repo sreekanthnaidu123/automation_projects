@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-17T11:08:24.292781" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC 05" source="C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_05.robot">
+<test id="s1-s1-t1" name="alerts" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:24.548823" level="INFO">Opening browser 'Chrome' to base url 'https://chercher.tech/practice/practice-pop-ups-selenium-webdriver'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-17T11:08:24.548823" elapsed="1.997426"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-17T11:08:26.546249" elapsed="0.106662"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-05-17T11:08:26.653920" elapsed="0.004983"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:26.661891" level="INFO">Clicking element 'xpath://input[@name='alert']'.</msg>
+<arg>xpath://input[@name='alert']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:26.659900" elapsed="6.093579"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:32.753479" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>accept</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2024-05-17T11:08:32.753479" elapsed="9.009211"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:41.764751" level="INFO">Clicking element 'xpath://input[@name='confirmation']'.</msg>
+<arg>xpath://input[@name='confirmation']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:41.762690" elapsed="6.069701"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:47.832391" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>dismiss</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2024-05-17T11:08:47.832391" elapsed="9.011526"/>
+</kw>
+<status status="PASS" start="2024-05-17T11:08:24.548823" elapsed="32.295094"/>
+</test>
+<status status="PASS" start="2024-05-17T11:08:24.332568" elapsed="32.511349"/>
+</suite>
+<status status="PASS" start="2024-05-17T11:08:24.324029" elapsed="32.519888"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 05">Suites.TC 05</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

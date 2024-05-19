@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-17T12:05:14.201118" rpa="false" schemaversion="5">
+<suite id="s1" name="If" source="C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\if.robot">
+<test id="s1-t1" name="TC01" line="6">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-05-17T12:05:14.419816" level="INFO">${num} = 10</msg>
+<var>${num}</var>
+<arg>10</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-05-17T12:05:14.419816" elapsed="0.000000"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-05-17T12:05:14.419816" level="INFO">10</msg>
+<arg>${num}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-05-17T12:05:14.419816" elapsed="0.000000"/>
+</kw>
+<arg>${num} &gt; 5</arg>
+<arg>log</arg>
+<arg>${num}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-05-17T12:05:14.419816" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-05-17T12:05:14.419816" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2024-05-17T12:05:14.201118" elapsed="0.218698"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="If">If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

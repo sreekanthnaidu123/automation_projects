@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-17T11:07:56.560646" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC 02" source="C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_02.robot">
+<test id="s1-s1-t1" name="LoginTest" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:56.798655" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-17T11:07:56.798655" elapsed="3.271195"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.069850" elapsed="0.053358"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:00.128893" level="INFO">Clicking link 'xpath://a[@class='ico-login']'.</msg>
+<arg>xpath://a[@class='ico-login']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.126450" elapsed="0.707147"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-05-17T11:08:00.834595" level="INFO">${"email_txt"} = xpath://input[@class='email']</msg>
+<var>${"email_txt"}</var>
+<arg>xpath://input[@class='email']</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.833597" elapsed="0.000998"/>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:00.883460" level="INFO">Element 'xpath://input[@class='email']' is displayed.</msg>
+<arg>${"email_txt"}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.834595" elapsed="0.048865"/>
+</kw>
+<kw name="Element Should Be Enabled" owner="SeleniumLibrary">
+<arg>${"email_txt"}</arg>
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.883460" elapsed="0.025909"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:00.909369" level="INFO">Page title is 'nopCommerce demo store. Login'.</msg>
+<arg>nopCommerce demo store. Login</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.909369" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:00.909369" level="INFO">Typing text 'sree@kanth042@gmai.com' into text field 'xpath://input[@class='email']'.</msg>
+<arg>${"email_txt"}</arg>
+<arg>sree@kanth042@gmai.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:00.909369" elapsed="0.106579"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:01.016946" level="INFO">Typing text 'sree@123' into text field 'id:Password'.</msg>
+<arg>id:Password</arg>
+<arg>sree@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.015948" elapsed="0.100068"/>
+</kw>
+<kw name="Clear Element Text" owner="SeleniumLibrary">
+<arg>id:Password</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.116660" elapsed="0.033555"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:01.150215" level="INFO">Clicking element 'id:RememberMe'.</msg>
+<arg>id:RememberMe</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.150215" elapsed="0.049975"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:01.200190" level="INFO">Clicking button 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.200190" elapsed="0.073267"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:08:01.273457" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<arg>accept</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.273457" elapsed="0.004987"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-05-17T11:08:06.279582" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-05-17T11:08:01.278444" elapsed="5.001138"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-05-17T11:08:06.279582" elapsed="2.140733"/>
+</kw>
+<status status="PASS" start="2024-05-17T11:07:56.798655" elapsed="11.621660"/>
+</test>
+<status status="PASS" start="2024-05-17T11:07:56.598339" elapsed="11.821976"/>
+</suite>
+<status status="PASS" start="2024-05-17T11:07:56.582713" elapsed="11.837602"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 02">Suites.TC 02</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

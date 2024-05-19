@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-17T11:07:56.560646" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC 01" source="C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_01.robot">
+<test id="s1-s1-t1" name="LoginTest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:56.798655" level="INFO">Opening browser 'Chrome' to base url 'https://sekharautomation.netlify.app/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-17T11:07:56.798655" elapsed="2.680644"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:59.479299" level="INFO">Typing text 'sreekanth' into text field 'id:name'.</msg>
+<arg>id:name</arg>
+<arg>sreekanth</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:07:59.479299" elapsed="0.114760"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:59.594059" level="INFO">Typing text 'mellamputi' into text field 'id:Surname'.</msg>
+<arg>id:Surname</arg>
+<arg>mellamputi</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:07:59.594059" elapsed="0.064422"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:59.658481" level="INFO">Typing text '4th' into text field 'id:sem'.</msg>
+<arg>id:sem</arg>
+<arg>4th</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:07:59.658481" elapsed="0.084158"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:59.742639" level="INFO">Typing text '805604092' into text field 'id:mobile'.</msg>
+<arg>id:mobile</arg>
+<arg>805604092</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:07:59.742639" elapsed="0.074949"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:07:59.817588" level="INFO">Typing text 'thmelamputi' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>thmelamputi</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-17T11:07:59.817588" elapsed="0.096447"/>
+</kw>
+<status status="PASS" start="2024-05-17T11:07:56.798655" elapsed="3.115380"/>
+</test>
+<status status="PASS" start="2024-05-17T11:07:56.598339" elapsed="3.316694"/>
+</suite>
+<status status="PASS" start="2024-05-17T11:07:56.582713" elapsed="3.333317"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 01">Suites.TC 01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

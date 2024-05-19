@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-09T15:27:30.032333" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 01" source="C:\Users\ADMIN\PycharmProjects\pom\TestCaes\TC_01.robot">
+<test id="s1-t1" name="INvalid Scenario" line="13">
+<kw name="lauchbrowser" owner="keyword">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-09T15:27:30.266655" level="INFO">Opening browser 'chrome' to base url 'https://practicetestautomation.com/practice-test-login/'.</msg>
+<arg>${siteurl}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-09T15:27:30.266655" elapsed="3.504337"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-09T15:27:33.770992" elapsed="0.031681"/>
+</kw>
+<arg>${siteurl}</arg>
+<arg>${browser}</arg>
+<status status="PASS" start="2024-05-09T15:27:30.266655" elapsed="3.536018"/>
+</kw>
+<kw name="input user" owner="keyword">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-09T15:27:33.807867" level="INFO">Typing text 'student' into text field 'id:username'.</msg>
+<arg>${username_loc}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-09T15:27:33.805458" elapsed="0.134487"/>
+</kw>
+<arg>${user}</arg>
+<status status="PASS" start="2024-05-09T15:27:33.804198" elapsed="0.135747"/>
+</kw>
+<kw name="input pwd" owner="keyword">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-05-09T15:27:33.941795" level="INFO">Typing text 'password123' into text field 'id:password'.</msg>
+<arg>${password_loc}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-09T15:27:33.941795" elapsed="0.113122"/>
+</kw>
+<arg>${pass}</arg>
+<status status="PASS" start="2024-05-09T15:27:33.941795" elapsed="0.113518"/>
+</kw>
+<kw name="submitbtn" owner="keyword">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-05-09T15:27:34.056099" level="INFO">Clicking button 'id:submit'.</msg>
+<arg>${button}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-05-09T15:27:34.056099" elapsed="0.068558"/>
+</kw>
+<status status="PASS" start="2024-05-09T15:27:34.056099" elapsed="0.068558"/>
+</kw>
+<kw name="errormsg" owner="keyword">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2024-05-09T15:27:34.143309" level="INFO">Current page contains text 'Your password is invalid!'.</msg>
+<arg>Your password is invalid!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2024-05-09T15:27:34.124657" elapsed="0.018652"/>
+</kw>
+<status status="PASS" start="2024-05-09T15:27:34.124657" elapsed="0.018652"/>
+</kw>
+<status status="PASS" start="2024-05-09T15:27:30.266655" elapsed="3.876654"/>
+</test>
+<status status="PASS" start="2024-05-09T15:27:30.032333" elapsed="4.110976"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC 01">TC 01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

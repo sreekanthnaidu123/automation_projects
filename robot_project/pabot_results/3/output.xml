@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-17T11:04:40.251694" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="TC 04" source="C:\Users\ADMIN\PycharmProjects\robot_project\TestCases\TC_04.robot">
+<test id="s1-s1-t1" name="DROPDOWNS" line="7">
+<kw name="Get Selenium Speed" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:40.490038" level="INFO">${speed} = 0 seconds</msg>
+<var>${speed}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-05-17T11:04:40.490038" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${speed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-17T11:04:40.490038" elapsed="0.000000"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:40.490038" level="INFO">Opening browser 'Chrome' to base url 'https://chercher.tech/practice/practice-dropdowns-selenium-webdriver'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-05-17T11:04:40.490038" elapsed="1.838972"/>
+</kw>
+<kw name="Get Location" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:42.344632" level="INFO">${presenturl} = https://chercher.tech/practice/practice-dropdowns-selenium-webdriver</msg>
+<var>${presenturl}</var>
+<doc>Returns the current browser window URL.</doc>
+<status status="PASS" start="2024-05-17T11:04:42.329010" elapsed="0.015622"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${presenturl}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-17T11:04:42.344632" elapsed="0.000000"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-05-17T11:04:42.344632" elapsed="0.031131"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:42.375763" level="INFO">Selecting options from selection list 'first' by label Google.</msg>
+<arg>first</arg>
+<arg>Google</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-05-17T11:04:42.375763" elapsed="0.101272"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:42.477035" level="INFO">Selecting options from selection list 'first' by index 3.</msg>
+<arg>first</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2024-05-17T11:04:42.477035" elapsed="0.640246"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-05-17T11:04:43.117281" elapsed="0.000000"/>
+</kw>
+<kw name="Select From List By Label" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:43.117281" level="INFO">Selecting options from selection list 'animals' by label Baby Cat.</msg>
+<arg>animals</arg>
+<arg>Baby Cat</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<status status="PASS" start="2024-05-17T11:04:43.117281" elapsed="14.166670"/>
+</kw>
+<kw name="Select From List By Index" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:04:57.283951" level="INFO">Selecting options from selection list 'animals' by index 2.</msg>
+<arg>animals</arg>
+<arg>2</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<status status="PASS" start="2024-05-17T11:04:57.283951" elapsed="20.224756"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:05:17.508707" level="INFO">Selecting options from selection list 'animals' by value avatar.</msg>
+<arg>animals</arg>
+<arg>avatar</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-05-17T11:05:17.508707" elapsed="14.176052"/>
+</kw>
+<kw name="Get Selenium Speed" owner="SeleniumLibrary">
+<msg time="2024-05-17T11:05:31.684759" level="INFO">${speed1} = 2 seconds</msg>
+<var>${speed1}</var>
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-05-17T11:05:31.684759" elapsed="0.000000"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${speed1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-05-17T11:05:31.684759" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-05-17T11:04:40.490038" elapsed="51.194721"/>
+</test>
+<status status="PASS" start="2024-05-17T11:04:40.289453" elapsed="51.395306"/>
+</suite>
+<status status="PASS" start="2024-05-17T11:04:40.273793" elapsed="51.410966"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TC 04">Suites.TC 04</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
